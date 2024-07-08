@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import InputComponent from './components/Inputcomponent';
+import InputComponent from './components/InputComponent';
 import TodoList from './components/TodoList';
 const App = () => {
   const [count, setCount] = useState(0);

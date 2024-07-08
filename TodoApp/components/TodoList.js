@@ -26,7 +26,7 @@ export default function TodoList({tasks, DeleteTask, onEditTrigger}) {
             marginTop: 100,
           }}>
           <Image
-            source={require('./assets/to-do-list.png')}
+            source={require('../assets/to-do-list.png')}
             style={{height: 250, width: 250}}
           />
         </View>
